@@ -2,6 +2,7 @@
 
 {% block page %}
 
+<h1 class="page-header">Expense</h1>
 <form action="{{ action }}" method="POST">
 {% csrf_token %}
 {% for field in form %}
