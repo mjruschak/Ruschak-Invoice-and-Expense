@@ -80,3 +80,4 @@ target/
 # Bower and Node components
 bower_components
 node_modules
+common/static
