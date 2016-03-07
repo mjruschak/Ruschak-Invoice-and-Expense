@@ -76,3 +76,7 @@ target/
 
 # Spyder project settings
 .spyderproject
+
+# Bower and Node components
+bower_components
+node_modules

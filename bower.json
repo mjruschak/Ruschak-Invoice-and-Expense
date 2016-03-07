@@ -1,0 +1,25 @@
+{
+  "name": "Ruschak Invoice Expense",
+  "homepage": "https://github.com/mjruschak/Ruschak-Invoice-and-Expense",
+  "description": "Invoice and expense management",
+  "main": "",
+  "moduleType": [
+    "globals"
+  ],
+  "authors": [
+    "Michael J. Ruschak"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "bootstrap-sass-official#^3.3.6",
+    "bootstrap": "^3.3.6"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "rusch_client_invoice",
+  "version": "1.0.0",
+  "description": "Invoice and expense management",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjruschak/Ruschak-Invoice-and-Expense.git"
+  },
+  "author": "Michael J. Ruschak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjruschak/Ruschak-Invoice-and-Expense/issues"
+  },
+  "homepage": "https://github.com/mjruschak/Ruschak-Invoice-and-Expense#readme"
+}

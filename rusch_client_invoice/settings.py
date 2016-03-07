@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'common',
     'expense',
     'billing',
 ]
@@ -57,7 +58,9 @@ ROOT_URLCONF = 'rusch_client_invoice.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            # os.path.join(BASE_DIR, 'templates'),
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -69,9 +72,9 @@ TEMPLATES = [
         },
     },
 ]
-
+print("base dir path", BASE_DIR)
+print("base dir path joined", os.path.join(BASE_DIR, 'templates'))
 WSGI_APPLICATION = 'rusch_client_invoice.wsgi.application'
-
 
 # Database
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
