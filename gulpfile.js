@@ -9,14 +9,14 @@ var shell = require('gulp-shell');
 
 gulp.task('bootstrap-copy', function() {
     // SASS Files
-    gulp.src('bower_components/bootstrap/dist/css/*.min.css').pipe(gulp.dest('common/static/bootstrap/css'));
-    gulp.src('bower_components/bootstrap/dist/css/*.map').pipe(gulp.dest('common/static/bootstrap/css'));
+    gulp.src('bower_components/bootstrap/dist/css/*.min.css').pipe(gulp.dest('common/vendor/static/bootstrap/css'));
+    gulp.src('bower_components/bootstrap/dist/css/*.map').pipe(gulp.dest('common/vendor/static/bootstrap/css'));
 
     // JS Files
-    gulp.src('bower_components/bootstrap/dist/js/bootstrap.min.js').pipe(gulp.dest('common/static/bootstrap/js'));
+    gulp.src('bower_components/bootstrap/dist/js/bootstrap.min.js').pipe(gulp.dest('common/vendor/static/bootstrap/js'));
 
     // FONT Files
-    gulp.src('bower_components/bootstrap/dist/fonts/*').pipe(gulp.dest('common/static/bootstrap/fonts'));
+    gulp.src('bower_components/bootstrap/dist/fonts/*').pipe(gulp.dest('common/static/vendor/bootstrap/fonts'));
 });
 
 gulp.task('run', function() {
